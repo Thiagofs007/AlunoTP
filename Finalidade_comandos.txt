@@ -1,0 +1,27 @@
+Finalidade dos comandos
+
+Comando	Finalidade
+git init	Inicializa um novo repositório Git em uma pasta
+git config --global user.name "turing"	Define o nome do usuário globalmente para os commits
+git add EXERCICIO.txt	Adiciona o arquivo EXERCICIO.txt à área de stage (preparação para commit)
+git add .	Adiciona todos os arquivos modificados ou novos à área de stage
+git commit -m "Adicionado nova interface"	Cria um commit com a mensagem especificada
+git commit	Abre o editor padrão para escrever uma mensagem de commit
+git reset --hard HEAD	Remove todas as alterações não commitadas e volta ao estado do último commit
+cd Downloads	Entra na pasta Downloads (comando do sistema, não do Git)
+pwd	Mostra o diretório atual (comando do sistema)
+cd ..	Volta uma pasta (comando do sistema)
+ls	Lista arquivos e pastas (comando do sistema)
+git pull	Baixa as alterações do repositório remoto e mescla com o local
+git push	Envia os commits locais para o repositório remoto
+git clone <url>	Clona um repositório remoto para o computador local
+git diff	Mostra as diferenças entre arquivos modificados e a última versão commitada
+git show	Exibe informações detalhadas sobre um commit (padrão: último)
+
+Função dos componentes do Git
+
+Componente	Função
+Stage Area (Index)	Área intermediária onde os arquivos são preparados antes do commit
+Commit	Um "snapshot" (foto) do projeto em um determinado momento
+Local Repository	Repositório Git armazenado no computador local (pasta .git)
+Remote Repository	Repositório hospedado em um servidor (GitHub, GitLab, etc.)
